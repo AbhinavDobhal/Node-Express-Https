@@ -1,6 +1,6 @@
-# Node-Express-Https-Socketio-Redis
+# Node-Express-Https
 
-Example of using Socket.io Redis Express & Node.js with HTTPS.
+Example of using  Express & Node.js with HTTPS.
 
 ## Usage
 

@@ -1,0 +1,18 @@
+{
+    "name": "node-express-https",
+    "version": "1.0.0",
+    "author": "Abhinav Dobhal <abhinav.dobhal@gmail.com>",
+    "description": "Example of using  Express & Node.js with HTTPS.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AbhinavDobhal/Node-Express-Https.git"
+    },
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "*"
+    },
+    "license": "MIT"
+}

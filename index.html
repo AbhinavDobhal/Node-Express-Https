@@ -1,0 +1,97 @@
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+	@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
+	body {
+	background: #eee;
+	padding: 40px 0px;
+}
+
+.card a {
+	color: #333;
+	text-decoration: none;
+}
+.card:hover .card-image img {
+	width: 110%;
+	filter: grayscale(0);
+}
+.card-image {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+.card-image img {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	filter: grayscale(1);
+	transition-property: filter width;
+	transition-duration: .3s;
+}
+.card-body {
+	text-align: center;
+	padding: 15px 20px;
+	box-sizing: border-box;
+}
+.card-date {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.card-title,
+.card-exceprt {
+	font-family: 'Playfair Display', serif;
+}
+.card-date,
+.card-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.card-date,
+.card-exceprt,
+#case-title {
+	color: #777;
+}
+#case-title {
+	position: absolute;
+	font: 18px 'Microsoft YaHei';
+	top:10px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	display:block;
+	text-align:center;
+	text-decoration: none;
+}
+</style>
+
+<a id="case-title" href="#">
+   Node express https 
+</a>
+<div class="card">
+    <a href="#.">
+     
+        <div class="card-body">
+            <div class="card-date">
+                <time id="demo">
+                 
+                </time>
+            </div>
+            <div class="card-title">
+                <h3 id='currentUser'>
+                
+                </h3>
+            </div>
+            <div class="card-exceprt">
+                <p>
+                  
+                </p>
+            </div>
+        </div>
+    </a>
+</div>
+<script>
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toString();
+    </script>
